@@ -1,0 +1,5 @@
+static block will be created with just static keyword , it will call automatically, no need to call with either object nor class
+
+=>static method
+for static method no need to call with object we can directly call with class name and here static will acts as instanse or object
+
