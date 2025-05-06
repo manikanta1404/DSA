@@ -118,3 +118,30 @@
         
 //     }
 // }
+
+//finding HCF
+/* Online Java Compiler and Editor */
+// public class HelloWorld{
+
+//      public static void main(String []args){
+//         System.out.println("Hello, World!");
+//         Hcf hcf = new Hcf();
+//         int res = hcf.hcf(30,12);
+//         System.out.println(res);
+//      }
+// }
+
+// class Hcf{
+//     int n;
+//     int m;
+    
+//     int hcf(int n, int m){
+//         if(m==0){
+//             return n;
+            
+//         }
+//         else{
+//             return (hcf(m, (n%m)));
+//         }
+//     }
+// }
