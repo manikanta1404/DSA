@@ -1,0 +1,27 @@
+================control statements========================
+types are 2
+  entry and exit 
+
+entry control statements are 
+for and while
+=>example for loop
+syntax for(start; end; diff){
+  
+}
+example:
+int arr[] = {1,2,3,4,5};
+for(int i=0; i<n;i++){
+return arr[i];
+}
+syntac for while
+start;
+while(end)
+  diff
+
+when we know the range we use for loop or prefer to use for loop
+when we don't know the range prefer to use while loop
+
+example:
+  
+    
+exit control statements are
