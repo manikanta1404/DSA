@@ -1,0 +1,21 @@
+================ conditional statements =========================
+  types:
+if, else
+elsif lader
+switch case
+
+conditional statements are used to to check the condition and to print block of code in constant time 
+examples:
+if and else
+switch cases
+psudo code for if and else
+if(condition){
+}
+elase{
+  }
+
+switch cases
+switch a:
+switch b:
+
+
