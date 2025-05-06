@@ -1,0 +1,27 @@
+constaructors are used to initilize the objects 
+  for every class there will be a default constructor 
+  when ever we create an object constructor will be called , then object will be created 
+
+  =>constructor having a class name or method properties'  
+  =>static block
+  example
+public class q2{
+  public static void main(){
+    Demo q1 = new Demo();
+    Demo q2 = new Demo();
+  }
+}
+class Demo{
+  static {
+    sys.out.pr("static block");
+  }
+  Demo(){
+    sys.out.pr("constructor");
+  }
+}
+
+
+
+
+
+  we created a two objects two times constructor will be called
