@@ -1,0 +1,11 @@
+====================patterns printing====================
+there are three type of solutions for any problem
+1.brute force
+2.better
+3.optimal
+
+
+for brute force most of the solutions can be written using two loops (loop inside loop)
+step1: how many rows you need to print
+step2: how many columns need to print
+step3: what to print , what not to print
