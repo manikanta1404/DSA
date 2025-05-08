@@ -23,3 +23,6 @@ for if else
 (condition) ? statement1 : statement2 ;
 example:
   (n==4) ? System.out.println("y") : System.out.println("n");
+example2:
+String res = (n==4) ? ("y") : ("n");
+System.out.println(res);
