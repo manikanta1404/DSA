@@ -26,3 +26,14 @@ example:
 example2:
 String res = (n==4) ? ("y") : ("n");
 System.out.println(res);
+
+
+
+================ enhanced for loop ========================
+`in collections we don't have index values in those situations we have to use for each loop 
+
+example:
+int arr[] = {1,2,3,4};
+for (var : arr){
+  System.out.println(var);
+}
