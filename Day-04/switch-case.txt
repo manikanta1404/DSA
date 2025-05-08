@@ -6,3 +6,13 @@
 4. if break is not used, it will continue to next case
 5. default will execute when none of the above case
 6. if default is not at the end, put break after it 
+
+syntax for switch case
+
+switch(expression){
+  case :
+    statement;
+    break;
+  default :
+    statement;
+  }
