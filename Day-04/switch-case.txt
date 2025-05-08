@@ -34,6 +34,6 @@ System.out.println(res);
 
 example:
 int arr[] = {1,2,3,4};
-for (var : arr){
+for (int var : arr){
   System.out.println(var);
 }
