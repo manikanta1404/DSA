@@ -1,0 +1,8 @@
+================ switch cases =======================
+
+1. cases have to be the same type as expression, must be a constant or litera
+2. duplicate case values are not allow
+3. break is used ti terminate the sequence
+4. if break is not used, it will continue to next case
+5. default will execute when none of the above case
+6. if default is not at the end, put break after it 
