@@ -110,6 +110,72 @@ public class HelloWorld{
         //     }
         //     System.out.println();
         // }
+
+
+          // Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+        
+        for(int i=1;i<=5;i++){
+            for(int j=1;j<=i;j++){
+                // for(int s=1;s<=j;s++){
+                //     System.out.print(" ");
+                // }
+                System.out.print(j + " ");
+            }
+            System.out.println();
+        }
+        
+        // {
+        //     output
+            
+        //     1 
+        //     1 2 
+        //     1 2 3 
+        //     1 2 3 4 
+        //     1 2 3 4 5 
+        // }
+        
+        
+        
+        
+        
+        for(int i=1;i<=5;i++){
+            for(int j=5;j>=i;j--){
+                System.out.print(j + " ");
+            }
+            System.out.println();
+        }
+        
+        // {
+        //     output
+        //     5 4 3 2 1 
+        //     5 4 3 2 
+        //     5 4 3 
+        //     5 4 
+        //     5
+        // }
+        
+        for(int i=1;i<=5;i++){
+            for(int s=5;s>=i;s--){
+                    System.out.print(" ");
+                }
+                for(int j=1;j<=2*i-1;j++){
+                
+                System.out.print(j);
+            }
+            System.out.println();
+        }
+        
+        // {
+        //     output
+            
+            
+        //          1
+        //         123
+        //       12345
+        //       1234567
+        //      123456789
+        // }
         
         
      }
