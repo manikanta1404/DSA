@@ -16,3 +16,10 @@ switch(expression){
   default :
     statement;
   }
+
+
+============ terminory operator ===================
+for if else
+(condition) ? statement1 : statement2 ;
+example:
+  (n==4) ? System.out.println("y") : System.out.println("n");
