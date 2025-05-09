@@ -49,3 +49,8 @@ int{} arr;
 arr = 1,2,3,4};
 decleration happen in first and initilation next
 
+
+=> te get the lenght of the array array_name.length
+=>in string array string_name.length()
+
+
