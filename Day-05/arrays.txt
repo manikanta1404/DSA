@@ -1,0 +1,30 @@
+==================== arrays =========================
+
+collection of similar kind of data in a continuous allocation
+=>in C and C++ we have pointers definitely elements will be stored in continuous format 
+=> In java we  don't have pointers the there is a chance of elements might store in random places 
+
+syntax:
+datatype[] araay_name;
+
+=>premitive and non 
+premitive data types can't be splitted or divided
+ex: int, float etc
+
+non premitive data types can be divided
+ex: String , all the objects creaed by user
+example:
+Class Node{
+  int data;
+  Node next;
+  }
+
+
+=> all the objects will be stored in heap memory
+=> all the references will be stored in stack memory
+
+=> statck memory having less space compared to heap memory
+
+
+=> * array can store both of them
+
