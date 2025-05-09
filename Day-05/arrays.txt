@@ -28,3 +28,24 @@ Class Node{
 
 => * array can store both of them
 
+example:
+class Main {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 12;
+        
+    }
+}
+
+all the variables are stored in same datatype
+=>instead of creating multiple variables , create an array to store 
+=> here if we create multiple variables to get the data, simply we can print the variable
+=> when it comes to arrayif u want to print the data we can print using index values , and by default index values will start from 0
+
+int{} arr = {1,2,3,4};
+decleration and initialization happen in same line
+
+int{} arr;
+arr = 1,2,3,4};
+decleration happen in first and initilation next
+
