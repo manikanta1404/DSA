@@ -119,6 +119,6 @@ Scanner in = new Scanner(System.in);
 
 => in the above we have 3 types of printing
 
-
+=> when ever u are tring to assign nth value of array 
 
 
