@@ -1,0 +1,8 @@
+=================== 2d-array ===============================
+=> 2d array consistes of rows and columns 
+syntax:
+int[][] arr = new int[rows][columns];
+=> the column numbers are optional
+=> stack consists rows and heap stored columns
+=> while declaring the array, we have to declare number of rows and column numbers are ( optional )
+=> each row will act as a individual array 
