@@ -17,9 +17,9 @@ Each folder contains:
 
 ## 🛠️ Tools & Language
 
-- Language: [Your preferred language, e.g., C++, Python]
-- IDE: [VS Code / CodeBlocks / etc.]
-- Platforms: LeetCode, GFG, HackerRank
+- Language:  Python, java
+- IDE: VS Code
+- Platforms: LeetCode, GFG
 
 ## ✅ Current Focus
 
