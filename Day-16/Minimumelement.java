@@ -23,5 +23,6 @@ public class Minimumelement {
             arr[i] = sc.nextInt();
         }
         System.out.println(minimum(arr));
+        sc.close();
     }
 }
