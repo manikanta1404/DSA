@@ -1,0 +1,15 @@
+=> array having fixed size , once we declare we cant change thhe size
+=> to increage array size dynamically we have to use arraylist, its belongs to collection framework
+=>what is a framework?
+=> framework is nothing but, predefined methods  and will guide the program
+syntax: List <Wraper class> array_name = new ArrayList<>();
+ex: ArrayList <Integer> array_name = new ArrayList<>();
+
+"List" is an interface and interface contains incomplete methods
+"wraper class" its not a premitive data type its a class and in collections we have to use wraper class only 
+=> "<>" is called generics 
+=> "ArrayList" is call class, class contains complete methods
+=> arraylist in a dynamicc if my array is 2  if i am trying to add 3rd element the size will be double and it will copy previous elements, visevarsa
+the array will become half
+
+=>as array list is a class u have to impot the arraylist class , now we can access all the predefined methods which consists in arraylist

@@ -1,0 +1,4 @@
+=============== sub arrays ===================================
+
+=> sub array means  in an array it will contain elements in a continuous format 
+cadams algorith

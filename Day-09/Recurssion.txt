@@ -1,0 +1,42 @@
+================== recurssion ==========================
+q. from a given string we have to remove a charecter using recurssion
+=> assume that we have starting with two strings input and output, at initial was empty we have few steps those are 
+    1.take the first charecter from the string and store in a charecter variable
+    2.check the variable with our target charecter , if it matches just return output string, elase append the charecter to the out[ut string
+    3. slice the string by 1 charecter 
+=> when ever input string becomes empty we have to stop the recurssive
+
+
+=> if we have a particular charecter from a string we have to use charAt(i)
+=> if we want to slice a string we have to use subString(ex:1)
+=> isEmpty() is also a predefined function in Strings ( checks if string is empty or not )
+
+q. from a given a string skip a word entire and print rest of the charecters
+q. from the given string we have to skip "he" 
+
+
+
+
+
+
+
+======================= Strings ===============================
+=> in the memory strings are stored 
+    => reference variable stored in stack
+    => value is stored in the heap inside String pool
+
+q. strings are immutable ( not change their value )
+    => in the string pool we cant add or remove the valueof string after defining or declaring, but we can assign new string to the reference
+    => and it will change the value to new string, and  before value will be pushed in to the barbage collector automatically
+
+
+======================== Arrays ======================================
+two pointer problem==================:
+steps
+    1. initilize the pointer( variable ) accoeding to the question
+    2.if we are starting first pointer ( with 0 th index) , second pointer at last index , when ever both pointers cross eachother break the loop
+    3.before breaking the loop do the relevant operation 
+
+q. reverse an array using two pointers
+steps 
+    1. 

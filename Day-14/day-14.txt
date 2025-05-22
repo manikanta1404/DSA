@@ -1,0 +1,23 @@
+subArray :- it contains in a sequence and should not reverse
+subset :- no matter in sequence , but should not reverse the array 
+subsequence :- it contains in a sequence and should not reverse in a string
+subString :- no matter in sequence , but should not reverse the String 
+
+
+
+
+======================================== greedy algorithm =================================
+=> n- meetings in a room 
+=> job sheduling
+=> 0/1 fractional knapsack problem
+
+=> q.1 n-meetings
+ steps:-
+    1. create a pairs using start and end time 
+    2. sort the pairs using comparator according to the question ( by end time)
+    3. check the end time with next meeting start time strictilly increase return and update the end time with current meeting
+        (startTime.currentMeeting < endTime.nextMeeting)
+    4. return the pairs or number of pairs
+
+
+=> 

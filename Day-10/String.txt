@@ -1,0 +1,42 @@
+ ====================================== Strings ===========================================
+ 
+ => strings are classes, and arrays are objects 
+ => the sequence of charecters is called strings
+ => strings are immutable( cant be change )
+ => all the array objects will be created in heap memory, but strings are inside heap memory inside string pool
+ => once a string got created it will be created fixed it means we cant modify the string 
+example:
+    String a = "hello";
+    String b = "hello";
+    print(a==b)
+    => these two lines are created hello in string pool and the two variables are pointing same in the same memory and it will print true
+
+    String a = new String("hello");
+    String b = new String("hello");
+    print(a==b)
+    => here created two objects in different  memory location and print false
+
+
+    => this "==" compares address location in Strings
+    => print(a.equals(b))
+    => this will compare the data in that variables
+
+
+=> q. print all subsets in an given array
+================= sub set =======================
+
+=> for a given an array we have to prit possible arrays it should be in a sequence but not continuous is called subset 
+=> in an array if we have a n number of elements will get 2^n subsets
+
+
+
+====================================  backtracking ====================================
+
+=> its an example 
+
+=> in recurssion we have only two possiblities 
+    1.  (if and else)
+
+in backtracking we have multiple possiblities,  most of the problems when ever we reach base case we have to print all base case elements 
+=> remove last elements in every recurssive call 
+=> 

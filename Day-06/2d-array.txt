@@ -1,0 +1,25 @@
+=================== 2d-array ===============================
+=> 2d array consistes of rows and columns 
+syntax:
+int[][] arr = new int[rows][columns];
+=> the column numbers are optional
+=> stack consists rows and heap stored columns
+=> while declaring the array, we have to declare number of rows and column numbers are ( optional )
+=> each row will act as a individual array
+
+coding example or Q's
+q1.array is sorted or not
+q2.check target value in ana given array
+q3.segregation 0's and 1's ( left 0's and right 1's)
+Q4. find the missing number in an sorted array
+q5.find zig-zag in an array
+q6. maximum segregation 0's and 1's
+    example: {1,0,1,0,0,1,1,1,0,1}-->here we get 3 1's then we need to print instead of that only 3
+
+
+
+
+
+task rotate the 2d array in 90 deg 
+
+

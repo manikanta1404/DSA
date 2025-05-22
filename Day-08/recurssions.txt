@@ -1,0 +1,41 @@
+=> function call itself still its meets base condition  
+=> there are two types in recurssion
+    1. function calling same function itself and itself
+    2.function calling another funtion itself and itself still it meets base condition
+=> if we didnt mention base condition properly we get an exception called stack over flow
+=>Recurssions  are used to break the code 
+q. write code for factorial using recurssion
+    5! = 5*4!
+        4!= 4*3!
+            3!=3*2!
+                2!=2*1!
+
+=> for ever recursive call elements will be push into stack after reaching base condition elements will be pop 
+=> for our question 5,4,3,2,1,0 all these values will be push into a stack
+psuedo code
+fun(n){
+    if(n==0){
+        return 1;
+    }
+    else{
+        return n*fact(n-1);
+    }
+}
+
+=> fibnociss
+psuedo code
+fib(n){
+    if(n<2){
+        return n;
+    }
+    else{
+        return fib(n-1)+fib(n-2);
+    }
+}
+
+======================= pass wau value and pass way reference =======================
+
+=>in java  we dont have pointers so we cant use references so java is pass value well
+
+q. reverse an array using two pointers
+

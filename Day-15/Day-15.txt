@@ -1,0 +1,43 @@
+======================== linear search ========================
+=> to search the elemetns ina linear way , when ever the array lenth is shorter we use linear search and TC O(n)
+=> 
+
+
+
+
+======================= bineary search ===================================
+=> to redusetime complexity whie searching we have to use binary search 
+=> in binary search we got log(n) time complexity
+steps: 
+    1.initilize l point at 0, r pointer at n-1
+    2.run the loop l to r 
+    3. break the loop when l and r cross each other
+    4.find the middle value ( l + r )
+    5.
+    6. if middle value is smaller to the target , we dont get the element in left portion
+    7.right pointer will remain same and move left pointer
+    8.
+
+
+
+q. in a given array find the target element using binary search
+steps:  
+    1. initilize l and r 0 and n-1
+    2. run the loop for l to r 
+    3. we have to find which half is sorted for that , if arr[mid]< arr[l]
+        it means right half is sorted and if target lies in b/n arr[l] and arr[mid]
+        it means lement present in left half
+        move r to mid -1 and l remains same
+
+    4.else element present in right half
+        move l to mid +1 and r remains same 
+
+    5. if arr[mid] > arr[l]
+        left half is sorted and target element lies b/n arr[mid] and arr[r]
+        it means lies in right half 
+        move l to mid+1 and r remains same 
+    else 
+        opposite to 4th point 
+
+
+q. find the lower bound and upper limit

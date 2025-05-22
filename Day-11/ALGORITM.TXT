@@ -1,0 +1,32 @@
+=================== DUTCH NATIONAL FALG ALGORITHM =============================
+steps:
+    1. initilize 3 pointers ( l, m, h) ( l=0, m=0, h=n-1)
+    2. take arr[m] and compare if it is 1 
+        increment the m value
+    3. if it is 0 
+         swap wit l and m and increment the m, l
+    4. if it is 2 swap with m and h
+         and decrement the h value
+    5. 
+
+====================== collection framework ============================
+=> three types:
+    1. list
+        arraylist, linkedlist, vector
+    2. set
+        hashset, linkedhashset, treeset
+    3. map
+        hashmap, linkedhashmap, treemap
+
+these are interfaces list, map and tree 
+rest of the all terms are classes 
+=> interface contains incomplete methods , and class contain complete methods
+=> list is ordered , ehich can allow dublicates
+=> set is unordered which dont accept dublicates
+=> maps contains key , value pairs
+
+
+
+
+
+
